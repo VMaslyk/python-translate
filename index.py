@@ -1,12 +1,13 @@
 from appJar import gui
 def press(button):
     if button == "Cancel":
+        print("Close")
         app.stop()
     else:
-        usr = app.getEntry("Username")
-        pwd = app.getEntry("Password")
-        print("User:", usr, "Pass:", pwd)
-app = gui("Login Window", "400x200")
+        button == "Sumbit"
+        print("Sumbit")
+
+app = gui("Translete", "1400x800")
 app.setBg("orange")
 app.setFont(18)
 app.addLabel("title", "Welcome to our site")
